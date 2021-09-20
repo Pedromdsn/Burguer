@@ -5,7 +5,7 @@ import axios from "axios"
 
 import {Burger } from "../types/Data"
 import { GetStaticPaths, GetStaticProps } from "next"
-import { getRandomBurguer } from "./api/burguer"
+import { getRandomBurguer } from "./api/randownburguer"
 
 interface Props {
 	chosen: Burger
@@ -26,6 +26,6 @@ export const getStaticProps: GetStaticProps = async () => {
 
 	return {
 		props: { chosen },
-		redirect: 60,
+		revalidate: 60,
 	}
 }
