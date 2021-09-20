@@ -1,0 +1,26 @@
+.burguer {
+	animation: bounce 1s linear 3, bounce1 0.7s 3s linear 1;
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(-15%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
+
+@keyframes bounce1 {
+	0% {
+		transform: translateY(-15%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	100% {
+		transform: translateY(0);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+	}
+}
