@@ -20,7 +20,7 @@ module.exports = {
 				img: "1000px",
 			},
 			backgroundImage: {
-				principal: "url('/headerDesktop.png')",
+				principal: "url('/headerDesktop.webp')",
 			},
 		},
 	},
