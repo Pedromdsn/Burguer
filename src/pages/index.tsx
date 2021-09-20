@@ -1,11 +1,10 @@
 import Burguer from "../components/Burguer"
 import Infos from "../components/Infos"
 import Title from "../components/Title"
-import axios from "axios"
 
 import {Burger } from "../types/Data"
-import { GetStaticPaths, GetStaticProps } from "next"
 import { getRandomBurguer } from "./api/randownburguer"
+import { GetStaticProps } from "next"
 
 interface Props {
 	chosen: Burger
