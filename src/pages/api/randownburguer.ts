@@ -7,7 +7,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			res.json(getRandomBurguer())
 			return
 		default:
-			return res.status(401).send("Error")
+			return res.status(401).send("Error: Request method mush be GET")
 	}
 }
 
