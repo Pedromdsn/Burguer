@@ -12,7 +12,7 @@ interface Props {
 
 export default function Home({ chosen }: Props) {
 	return (
-		<div className="flex flex-col justify-around min-h-screen bg-principal bg-cover bg-yellow-500 gap-20 py-10">
+		<div className="flex flex-col justify-around min-h-screen bg-principal bg-cover bg-primary gap-20 py-10">
 			<Title />
 			<Infos calories={chosen.calories} description={chosen.description} name={chosen.name} />
 			<Burguer img={chosen.img}/>

@@ -13,6 +13,9 @@ module.exports = {
 			desktop: "1280px",
 		},
 		extend: {
+			colors: {
+				primary: "rgba(255, 150, 0, 1)",
+			},
 			minWidth: {
 				img: "500px",
 			},
