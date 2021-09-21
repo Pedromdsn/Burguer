@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next"
-import { DB } from "../../database/MicroDB"
+import DB  from "../../database/MicroDB.json"
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	switch (req.method) {
